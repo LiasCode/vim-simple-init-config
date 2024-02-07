@@ -48,7 +48,7 @@ vmap <C-c> <Esc>
 
 nmap <leader>ef :Ex<CR>
 nmap <C-n> :bn<CR>
-nmap <C-d> :bdelete<CR>
+nmap <C-N> :bprevious<CR>
 nmap Q <nop>
 nmap <leader>ss  :%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>
 
@@ -60,8 +60,8 @@ nmap <C-u> <C-u>zz
 nmap n nzzzv
 nmap N Nzzzv
 
-nmap <leader>sf :Files <C-r>=expand("%:h")<CR>/<CR>
-nmap <leader>p :GFiles <CR>
+nmap <leader>sf :Files<CR>
+nmap <C-p> :GFiles<CR>
 
 " Plugins Configuration------------------------ 
 colorscheme catppuccin_mocha
