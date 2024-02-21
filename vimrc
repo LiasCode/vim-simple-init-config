@@ -8,6 +8,8 @@ call plug#begin()
   Plug 'tpope/vim-sleuth'
   Plug 'tpope/vim-vinegar'
   Plug 'airblade/vim-gitgutter'
+
+  Plug 'github/copilot.vim'
 call plug#end()
 
 " SETS------------------------ 
