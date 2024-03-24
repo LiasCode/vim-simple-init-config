@@ -8,8 +8,6 @@ call plug#begin()
   Plug 'tpope/vim-sleuth'
   Plug 'tpope/vim-vinegar'
   Plug 'airblade/vim-gitgutter'
-
-  Plug 'github/copilot.vim'
 call plug#end()
 
 " SETS------------------------ 
@@ -52,7 +50,7 @@ nmap <leader>ef :Ex<CR>
 nmap <C-n> :bn<CR>
 nmap <C-N> :bprevious<CR>
 nmap Q <nop>
-nmap <leader>ss  :%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>
+nmap <leader>ss :%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>
 
 vmap J :m '>+1<CR>gv=gv
 vmap K :m '<-2<CR>gv=gv
@@ -67,3 +65,4 @@ nmap <C-p> :GFiles<CR>
 
 " Plugins Configuration------------------------ 
 colorscheme catppuccin_mocha
+
