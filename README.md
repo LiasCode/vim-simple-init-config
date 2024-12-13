@@ -1,4 +1,4 @@
-## Simple config for use vim
+## VIM ultra simple starter config
 
 ### Usage
 
