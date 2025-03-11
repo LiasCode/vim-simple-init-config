@@ -47,9 +47,11 @@ imap <C-c> <Esc>
 vmap <C-c> <Esc>
 
 nmap <leader>ef :Ex<CR>
-nmap <C-n> :bn<CR>
-nmap <C-N> :bprevious<CR>
+nmap <C-n> :bnext<CR>
+nmap <leader>rb :bdelete<CR>
+
 nmap Q <nop>
+
 nmap <leader>ss :%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>
 
 vmap J :m '>+1<CR>gv=gv
